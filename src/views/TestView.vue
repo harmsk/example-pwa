@@ -1,5 +1,5 @@
 <template>
   <main>
-    <BButton variant="danger">Test</BButton>
+    <BButton to="/">Test</BButton>
   </main>
 </template>
