@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "cross-env DEPLOY=github vite build",
-    "preview": "vite preview",
-    "publish-pwa": "gh-pages -t -d dist"
-  },
+   "scripts": {
+     "dev": "vite",
+     "build": "cross-env DEPLOY=github vite build",
+     "preview": "vite preview",
+     "publish-pwa": "gh-pages -t -d dist"
+   },
   "dependencies": {
     "vue": "^3.3.11",
     "vue-router": "^4.2.5"
